@@ -7,7 +7,14 @@ Route::get('greet', function($) {
     return $oGreetr->greet();
 });*/
 
+Route::group(['middleware' => 'web'], function () {
+   Route::get('/test2', function () {
 
-Route::get('/test2', function () {
-   echo "zxcxzczxccc";
-});
+   return view('engine.base');
+}); 
+}
+
+);
+
+
+

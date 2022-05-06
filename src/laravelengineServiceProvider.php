@@ -21,7 +21,20 @@ class laravelengineServiceProvider extends ServiceProvider
     {
 
         $this->loadRoutesFrom(__DIR__ . '/routes/web.php');
+        $this->loadRoutesFrom(__DIR__ . '/routes/api.php');
         $this->loadViewsFrom(__DIR__ . '/resources/views', 'engine');
+
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'engine');
+
+        $this->publishes([
+            __DIR__ . '/resources/views' => base_path() . '/resources/views/engine'
+        ], 'engine-views');
+
+
+        $this->publishes([
+    __DIR__ . '/resources/assets' =>
+    resource_path('assets/Retter241/laravelEngine'
+)], 'vue-components');
       
         /*$this->loadRoutesFrom(__DIR__ . '/routes.php');
         $this->loadMigrationsFrom(__DIR__ . '/Database/migrations');
