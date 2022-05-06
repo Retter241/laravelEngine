@@ -1,0 +1,25 @@
+{
+    "name": "retter241/laravel-engine",
+    "description": "Laravel package for backend engine",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vit",
+            "email": "retter241@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Retter241\\laravelEngine\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Retter241\\laravelEngine\\laravelengineServiceProvider"
+            ],
+        }
+},
+}
