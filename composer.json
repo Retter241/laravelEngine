@@ -2,12 +2,10 @@
     "name": "retter241/laravel-engine",
     "description": "Laravel package for backend engine",
     "type": "library",
-    "authors": [
-        {
-            "name": "Vit",
-            "email": "retter241@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Vit",
+        "email": "retter241@gmail.com"
+    }],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
@@ -16,23 +14,23 @@
     },
     "require": {
         "laravel/framework": "^10.10",
-        "3x1io/filament-commands": "^1.1",
-        "3x1io/filament-translations": "^1.1",
-        "alperenersoy/filament-export": "^0.2.4",
-        "andreiio/blade-iconoir": "^1.10",
-        "bezhansalleh/filament-language-switch": "^1.0",
-        "codeat3/blade-grommet-icons": "^1.3",
-        "filament/filament": "^2.0",
-        "filament/spatie-laravel-media-library-plugin": "^2.0",
-        "filament/spatie-laravel-settings-plugin": "^2.16",
-        "filament/spatie-laravel-translatable-plugin": "^2.0",
+        "3x1io/filament-commands": "dev-master",
+        "3x1io/filament-translations": "dev-master",
+        "alperenersoy/filament-export": "dev-master",
+        "andreiio/blade-iconoir": "dev-master",
+        "bezhansalleh/filament-language-switch": "dev-master",
+        "codeat3/blade-grommet-icons": "dev-master",
+        "filament/filament": "dev-master",
+        "filament/spatie-laravel-media-library-plugin": "dev-master",
+        "filament/spatie-laravel-settings-plugin": "dev-master",
+        "filament/spatie-laravel-translatable-plugin": "dev-master",
         "ibrahim-bedir/filament-dynamic-settings-page": "dev-main",
         "intervention/image": "^2.7",
-        "mohamedsabil83/filament-forms-tinyeditor": "^1.6",
-        "pxlrbt/filament-environment-indicator": "^1.0",
-        "ryangjchandler/blade-tabler-icons": "^1.4",
-        "ryangjchandler/filament-navigation": "^0.3.1",
-        "ryangjchandler/filament-profile": "^0.2.1"
+        "mohamedsabil83/filament-forms-tinyeditor": "dev-master",
+        "pxlrbt/filament-environment-indicator": "dev-master",
+        "ryangjchandler/blade-tabler-icons": "dev-master",
+        "ryangjchandler/filament-navigation": "dev-master",
+        "ryangjchandler/filament-profile": "dev-master"
     },
     "extra": {
         "laravel": {

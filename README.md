@@ -11,6 +11,8 @@ general composer.json
 
 composer dump-autoload
 
+composer update -W
+
 
 config/app.php :: 'providers'
 
