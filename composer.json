@@ -20,7 +20,7 @@
         "andreiio/blade-iconoir": "dev-main",
         "bezhansalleh/filament-language-switch": "dev-main",
         "codeat3/blade-grommet-icons": "dev-main",
-        "filament/filament": "dev-main",
+        "filament/filament": "*",
         "filament/spatie-laravel-media-library-plugin": "dev-main",
         "filament/spatie-laravel-settings-plugin": "dev-main",
         "filament/spatie-laravel-translatable-plugin": "dev-main",
