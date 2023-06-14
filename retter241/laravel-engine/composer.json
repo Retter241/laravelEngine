@@ -14,7 +14,19 @@
             "Retter241\\laravelEngine\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "laravel/framework": "^10.10",
+        "filament/filament": "^1.11",
+        "pxlrbt/filament-environment-indicator": "^1.0",
+        "ryangjchandler/filament-profile": "^1.0",
+        "3x1io/filament-translations": "^1.0",
+        "filament/spatie-laravel-settings-plugin": "^1.0",
+        "mohamedsabil83/filament-forms-tinyeditor": "^1.0",
+        "ryangjchandler/filament-navigation": "^1.0",
+        "filament/spatie-laravel-media-library-plugin": "^1.0",
+        "barryvdh/laravel-debugbar": "^3.6",
+        "bezhanSalleh/filament-language-switch": "^1.0"
+    },
     "extra": {
         "laravel": {
             "providers": [
